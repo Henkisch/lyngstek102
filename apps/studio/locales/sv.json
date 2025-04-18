@@ -1,0 +1,276 @@
+{
+  "image": {
+    "title": "Bild",
+    "alt": {
+      "title": "Alternativ text",
+      "description": "En kort beskrivning av bildens innehåll. Om den lämnas tom, används standardtexten från mediebiblioteket eller, om den inte är tillgänglig, filnamnet."
+    }
+  },
+  "button": {
+    "buttonText": "Knapptext"
+  },
+  "sections": {
+    "banner": {
+      "title": "Banner",
+      "name": "Bannersektion"
+    },
+    "cta": {
+      "title": "Uppmaning till handling",
+      "name": "CTA-sektion"
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "name": "FAQ-sektion",
+      "linkDescription": "Valfri länk för ytterligare innehåll eller åtgärder",
+      "link": {
+        "text": {
+          "title": "Länktext",
+          "description": "Texten som ska visas för länken"
+        },
+        "description": {
+          "title": "Länkbeskrivning",
+          "description": "En kort beskrivning av vart länken leder"
+        }
+      },
+      "faqs": {
+        "title": "FAQs",
+        "description": "Välj FAQ-posterna som ska visas i denna accordion"
+      }
+    },
+    "featureCardIcon": {
+      "name": "Kort med ikonsektion",
+      "card": "Kort med ikon",
+      "cards": {
+        "title": "Kort",
+        "description": "Samling av kort att visa"
+      }
+    },
+    "imageLinkCards": {
+      "name": "Bildlänk kortsektion",
+      "cards": {
+        "title": "Kort",
+        "description": "Samling av kort att visa"
+      }
+    },
+    "imageWithText": {
+      "name": "Bild med textsektion"
+    },
+    "leadingText": {
+      "name": "Ledande textsektion"
+    },
+    "media": {
+      "name": "Mediasektion",
+      "width": {
+        "title": "Mediebredd",
+        "description": "Ställer in bredden på den visade media"
+      }
+    },
+    "pricing": {
+      "name": "Prissättningssektion",
+      "description": "En kort beskrivning av prissättningsalternativen",
+      "plans": {
+        "title": "Prissättningsplaner",
+        "planName": {
+          "title": "Plan namn"
+        },
+        "planPrice": {
+          "title": "Plan pris",
+          "description": "Priset för planen (t.ex. '$29' eller 'Gratis')"
+        },
+        "planBillingPeriod": {
+          "title": "Faktureringsperiod",
+          "description": "Faktureringsperioden (t.ex. 'per månad' eller 'per år')"
+        },
+        "planDescription": {
+          "title": "Beskrivning",
+          "description": "En kort beskrivning av planen"
+        },
+        "planFeatures": {
+          "title": "Funktioner",
+          "description": "Lista över funktioner som ingår i denna plan"
+        },
+        "planIsPopular": {
+          "title": "Är populär",
+          "description": "Markera denna plan som det mest populära alternativet"
+        }
+      }
+    },
+    "richText": {
+      "name": "Rik text"
+    }
+  },
+  "common": {
+    "title": "Titel",
+    "description": "Beskrivning",
+    "button": "Knapp",
+    "buttons": "Knappar",
+    "buttonText": "Knapptext",
+    "badge": "Märke",
+    "pagebuilder": "Sidbygare",
+    "external": "Extern",
+    "internal": "Intern",
+    "url": "Url",
+    "type": "Typ",
+    "variant": "Variant",
+    "internalExternalLink": "Intern/Extern Länk",
+    "author": "Författare",
+    "name": "Namn",
+    "position": "Position",
+    "bio": "Biografi",
+    "authors": "Författare",
+    "publishedAt": "Publicerad den",
+    "image": "Bild",
+    "richText": "Rik text",
+    "faq": "FAQ",
+    "question": "Fråga",
+    "answer": "Svar",
+    "links": "Länkar",
+    "link": "Länk",
+    "label": "Etikett",
+    "subtitle": "Undertitel",
+    "homepage": "Startsida",
+    "page": "Sida",
+    "content": "Innehåll",
+    "seo": "SEO",
+    "openGraph": "Open Graph",
+    "card": "Kort",
+    "related": "Relaterad",
+    "icon": "Ikon",
+    "untitled": "Utan titel",
+    "layout": "Layout",
+    "noContent": "Inget innehåll",
+    "private": "Privat",
+    "public": "Publik",
+    "pages": "Sidor",
+    "faqs": "Vanliga frågor",
+    "siteConfiguration": "Webbplatskonfiguration",
+    "navigation": "Navigering",
+    "globalSettings": "Globala inställningar"
+  },
+  "blog": {
+    "title": "Blogg",
+    "index": {
+      "title": "Bloggindex"
+    },
+    "featuredBlogs": {
+      "title": "Utvalda bloggar",
+      "description": "Välj upp till 3 bloggar att lyfta fram på denna sida. Dessa bloggar kommer att visas framträdande på sidan."
+    },
+    "blogs": "Bloggar"
+  },
+  "link": {
+    "openInNewTab": {
+      "title": "Öppna i ny flik",
+      "description": "Om markerad kommer länken att öppnas i en ny flik."
+    },
+    "validation": {
+      "notEmpty": "Url kan inte vara tom",
+      "invalid": "Ogiltig URL"
+    }
+  },
+  "seo": {
+    "description": {
+      "warning": {
+        "minLength": "Metabeskrivningen bör vara minst 140 tecken för optimal SEO-synlighet i sökresultat",
+        "maxLength": "Metabeskrivningen får inte överstiga 160 tecken eftersom den kommer att trunkeras i sökresultaten"
+      }
+    },
+    "title": "SEO"
+  },
+  "navbar": {
+    "title": "Sitenavigering",
+    "description": "Konfigurera den huvudsakliga navigationsstrukturen för din webbplats",
+    "label": "Navigationsetikett",
+    "labelDescription": "Intern etikett för att identifiera denna navigationskonfiguration i CMS:et",
+    "navigationStructure": {
+      "title": "Navigationsstruktur",
+      "description": "Bygg din navigationsmeny med kolumner och länkar. Lägg till antingen en kolumn med länkar eller individuella länkar."
+    },
+    "link": {
+      "title": "Navigationslänk",
+      "description": "Individuell navigationslänk med namn och URL",
+      "linkDescription": "Beskrivningen för denna navigationslänk",
+      "linkText": {
+        "title": "Länktext",
+        "description": "Texten som kommer att visas för denna navigationslänk"
+      },
+      "url": {
+        "title": "Länk-URL",
+        "description": "Den URL som denna länk kommer att navigera till när den klickas"
+      }
+    },
+    "navigationColumn": {
+      "title": "Navigationskolumn",
+      "description": "En kolumn med navigationslänkar med en valfri titel",
+      "column": {
+        "title": "Kolumntitel",
+        "description": "Rubriktexten som visas ovanför denna grupp av navigationslänkar",
+        "links": {
+          "title": "Kolumnlänkar",
+          "description": "Listan över navigationslänkar som ska visas i denna kolumn"
+        }
+      }
+    }
+  },
+  "footer": {
+    "columnTitle": "Titel för kolumnen",
+    "columnLinks": "Länkar för kolumnen",
+    "labelDescription": "Etikett som används för att identifiera sidfoten i CMS:et",
+    "subtitleDescription": "Underrubrik som sitter under logotypen i sidfoten",
+    "navigationColumns": {
+      "title": "Navigationskolumner",
+      "description": "Navigationskolumner för sidfoten"
+    },
+    "title": "Sidfot"
+  },
+  "settings": {
+    "title": "Inställningar",
+    "description": "Globala inställningar och konfiguration för din webbplats",
+    "label": "Etikett",
+    "labelDescription": "Etikett som används för att identifiera inställningar i CMS:et",
+    "siteTitle": "Webbplatsens titel",
+    "siteTitleDescription": "Den huvudsakliga titeln på din webbplats, används i webbläsartabbar och SEO",
+    "siteDescription": "Webbplatsbeskrivning",
+    "siteDescriptionDescription": "En kort beskrivning av din webbplats för SEO-ändamål",
+    "siteLogo": "Webbplatslogotyp",
+    "siteLogoDescription": "Ladda upp din webbplats logotyp",
+    "contactEmail": "Kontakt-e-post",
+    "contactEmailDescription": "Primär kontakt-e-postadress för din webbplats",
+    "socialMediaLinks": {
+      "title": "Länkar till sociala medier",
+      "description": "Lägg till länkar till dina profiler på sociala medier",
+      "linkedIn": {
+        "title": "LinkedIn-URL",
+        "description": "Fullständig URL till din LinkedIn-profil/företagssida"
+      },
+      "facebook": {
+        "title": "Facebook-URL",
+        "description": "Fullständig URL till din Facebook-profil/sida"
+      },
+      "twitter": {
+        "title": "Twitter/X-URL",
+        "description": "Fullständig URL till din Twitter/X-profil"
+      },
+      "instagram": {
+        "title": "Instagram-URL",
+        "description": "Fullständig URL till din Instagram-profil"
+      },
+      "youtube": {
+        "title": "YouTube-URL",
+        "description": "YouTube-URL"
+      }
+    }
+  },
+  "badge": {
+    "title": "Märke",
+    "description": "Den mindre texten som sitter ovanför titeln/texten för att ge kontext"
+  },
+  "title": {
+    "title": "Titel",
+    "description": "Den stora texten som är det primära fokuset för blocket"
+  },
+  "subtitle": {
+    "title": "Undertitel",
+    "description": "Ytterligare kontext under huvudtiteln"
+  }
+}

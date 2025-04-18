@@ -1,0 +1,270 @@
+{
+  "common": {
+    "title": "Title",
+    "description": "Description",
+    "button": "Button",
+    "buttons": "Buttons",
+    "buttonText": "Button text",
+    "badge": "Badge",
+    "pagebuilder": "Page builder",
+    "external": "External",
+    "internal": "Internal",
+    "url": "Url",
+    "type": "Type",
+    "variant": "Variant",
+    "internalExternalLink": "Internal/External Link",
+    "author": "Author",
+    "authors": "Authors",
+    "name": "Name",
+    "position": "Position",
+    "bio": "Biography",
+    "publishedAt": "Published at",
+    "image": "Image",
+    "richText": "Rich Text",
+    "faq": "FAQ",
+    "question": "Question",
+    "answer": "Answer",
+    "links": "Links",
+    "link": "Link",
+    "label": "Label",
+    "subtitle": "Subtitle",
+    "homepage": "Home page",
+    "page": "Page",
+    "content": "Content",
+    "seo": "SEO",
+    "openGraph": "Open Graph",
+    "card": "Card",
+    "related": "Related",
+    "icon": "Icon",
+    "untitled": "Untitled",
+    "layout": "Layout",
+    "noContent": "No content",
+    "private": "Private",
+    "public": "Public",
+    "pages": "Pages",
+    "faqs": "FAQs",
+    "siteConfiguration": "Site Configuration",
+    "navigation": "Navigation",
+    "globalSettings": "Global Settings"
+  },
+  "seo": {
+    "title": "SEO",
+    "description": {
+      "warning": {
+        "minLength": "The meta description should be at least 140 characters for optimal SEO visibility in search results",
+        "maxLength": "The meta description should not exceed 160 characters as it will be truncated in search results"
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "blogs": "Blogs",
+    "index": {
+      "title": "Blog index"
+    },
+    "featuredBlogs": {
+      "title": "Featured blogs",
+      "description": "Select up to 3 blogs to feature on this page. These blogs will be displayed prominently on the page."
+    }
+  },
+  "link": {
+    "openInNewTab": {
+      "title": "Open in new tab",
+      "description": "If checked, the link will open in a new tab."
+    },
+    "validation": {
+      "notEmpty": "Url can't be empty",
+      "invalid": "Invalid URL"
+    }
+  },
+  "image": {
+    "title": "Image",
+    "alt": {
+      "title": "Alternative text",
+      "description": "A short description of the image's content. If left blank, it defaults to the media library alt text or, if unavailable, the file name."
+    }
+  },
+  "badge": {
+    "title": "Badge",
+    "description": "The smaller text that sits above the title/text to provide context"
+  },
+  "title": {
+    "title": "Title",
+    "description": "The large text that is the primary focus of the block"
+  },
+  "subtitle": {
+    "title": "Subtitle",
+    "description": "Additional context below the main title"
+  },
+  "sections": {
+    "banner": {
+      "name": "Banner section"
+    },
+    "cta": {
+      "name": "CTA Section"
+    },
+    "faq": {
+      "name": "FAQ Section",
+      "linkDescription": "Optional link for additional content or actions",
+      "link": {
+        "text": {
+          "title": "Link text",
+          "description": "The text to display for the link"
+        },
+        "description": {
+          "title": "Link Description",
+          "description": "A brief description of where the link leads to"
+        }
+      },
+      "faqs": {
+        "title": "FAQs",
+        "description": "Select the FAQ items to display in this accordion"
+      }
+    },
+    "featureCardIcon": {
+      "name": "Cards with icon section",
+      "card": "Card with icon",
+      "cards": {
+        "title": "Cards",
+        "description": "Collection of cards to display"
+      }
+    },
+    "imageLinkCards": {
+      "name": "Image link cards section",
+      "cards": {
+        "title": "Cards",
+        "description": "Collection of cards to display"
+      }
+    },
+    "imageWithText": {
+      "name": "Image with text section"
+    },
+    "leadingText": {
+      "name": "Leading text section"
+    },
+    "media": {
+      "name": "Media section",
+      "width": {
+        "title": "Media width",
+        "description": "Sets the width of the displayed media"
+      }
+    },
+    "pricing": {
+      "name": "Pricing section",
+      "description": "A brief description of the pricing options",
+      "plans": {
+        "title": "Pricing Plans",
+        "planName": {
+          "title": "Plan name"
+        },
+        "planPrice": {
+          "title": "Plan price",
+          "description": "The price of the plan (e.g. '$29' or 'Free')"
+        },
+        "planBillingPeriod": {
+          "title": "Billing period",
+          "description": "The billing period (e.g. 'per month' or 'per year')"
+        },
+        "planDescription": {
+          "title": "Description",
+          "description": "A brief description of the plan"
+        },
+        "planFeatures": {
+          "title": "Features",
+          "description": "List of features included in this plan"
+        },
+        "planIsPopular": {
+          "title": "Is popular",
+          "description": "Highlight this plan as the most popular option"
+        }
+      }
+    },
+    "richText": {
+      "name": "Rich Text"
+    }
+  },
+  "navbar": {
+    "title": "Site Navigation",
+    "description": "Configure the main navigation structure for your site",
+    "label": "Navigation label",
+    "labelDescription": "Internal label to identify this navigation configuration in the CMS",
+    "navigationStructure": {
+      "title": "Navigation Structure",
+      "description": "Build your navigation menu using columns and links. Add either a column of links or individual links."
+    },
+    "link": {
+      "title": "Navigation link",
+      "description": "Individual navigation link with name and URL",
+      "linkDescription": "The description for this navigation link",
+      "linkText": {
+        "title": "Link text",
+        "description": "The text that will be displayed for this navigation link"
+      },
+      "url": {
+        "title": "Link URL",
+        "description": "The URL that this link will navigate to when clicked"
+      }
+    },
+    "navigationColumn": {
+      "title": "Navigation Column",
+      "description": "A column of navigation links with an optional title",
+      "column": {
+        "title": "Column Title",
+        "description": "The heading text displayed above this group of navigation links",
+        "links": {
+          "title": "Column Links",
+          "description": "The list of navigation links to display in this column"
+        }
+      }
+    }
+  },
+  "footer": {
+    "title": "Footer",
+    "columnTitle": "Title for the column",
+    "columnLinks": "Links for the column",
+    "labelDescription": "Label used to identify footer in the CMS",
+    "subtitleDescription": "Subtitle that sits beneath the logo in the footer",
+    "navigationColumns": {
+      "title": "Navigation columns",
+      "description": "Navigation columns for the footer"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Global settings and configuration for your website",
+    "label": "Label",
+    "labelDescription": "Label used to identify settings in the CMS",
+    "siteTitle": "Site title",
+    "siteTitleDescription": "The main title of your website, used in browser tabs and SEO",
+    "siteDescription": "Site Description",
+    "siteDescriptionDescription": "A brief description of your website for SEO purposes",
+    "siteLogo": "Site logo",
+    "siteLogoDescription": "Upload your website logo",
+    "contactEmail": "Contact email",
+    "contactEmailDescription": "Primary contact email address for your website",
+    "socialMediaLinks": {
+      "title": "Social Media Links",
+      "description": "Add links to your social media profiles",
+      "linkedIn": {
+        "title": "LinkedIn URL",
+        "description": "Full URL to your LinkedIn profile/company page"
+      },
+      "facebook": {
+        "title": "Facebook URL",
+        "description": "Full URL to your Facebook profile/page"
+      },
+      "twitter": {
+        "title": "Twitter/X URL",
+        "description": "Full URL to your Twitter/X profile"
+      },
+      "instagram": {
+        "title": "Instagram URL",
+        "description": "Full URL to your Instagram profile"
+      },
+      "youtube": {
+        "title": "YouTube URL",
+        "description": "YouTube URL"
+      }
+    }
+  }
+}
