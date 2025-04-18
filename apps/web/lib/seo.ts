@@ -45,7 +45,7 @@ export function getMetaData(data: MetaDataInput): Metadata {
   });
 
   return {
-    title: `${meta.title} | Launch`,
+    title: `${meta.title} | Lyngstek 102`,
     description: meta.description,
     metadataBase: new URL(baseUrl),
     creator: "Henrik Larsson",

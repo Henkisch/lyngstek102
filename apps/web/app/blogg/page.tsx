@@ -46,7 +46,7 @@ export default async function BlogIndexPage() {
             <BlogHeader
               title={title}
               description={description}
-              badge="Articles & Insights"
+              badge="Vad har hänt?"
             />
           </div>
 

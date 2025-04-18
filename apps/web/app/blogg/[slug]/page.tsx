@@ -14,7 +14,7 @@ import { notFound } from "next/navigation";
 async function fetchBlogSlugPageData(slug: string) {
   return await sanityFetch({
     query: queryBlogSlugPageData,
-    params: { slug: `/blog/${slug}` },
+    params: { slug: `/blogg/${slug}` },
   });
 }
 

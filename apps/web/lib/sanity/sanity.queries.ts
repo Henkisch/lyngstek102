@@ -13,7 +13,7 @@ const imageFragment = /* groq */ `
 const breadCrumbFragment = /* groq */ `
   "breadcrumb": array::compact([
     {
-      "title": "Launch",
+      "title": "Lyngstek 102",
       "href": "/",
       "_id": "home",
       "_type": "home"

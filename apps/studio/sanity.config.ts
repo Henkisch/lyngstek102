@@ -32,7 +32,7 @@ const localePlugin = language === "sv" ? svSELocale() : undefined;
 
 export default defineConfig({
   name: "default",
-  title: title ?? "Launch",
+  title: title ?? "Lyngstek 102",
   projectId: projectId,
   dataset: dataset ?? "production",
   plugins: [

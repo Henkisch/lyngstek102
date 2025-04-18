@@ -89,7 +89,6 @@ export const blog = defineType({
       title: getLocalizedField("common", "image"),
       type: "image",
       group: GROUP.MAIN_CONTENT,
-      validation: (Rule) => Rule.required(),
       options: {
         hotspot: true,
       },
