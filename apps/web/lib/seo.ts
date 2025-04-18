@@ -44,6 +44,7 @@ export function getMetaData(data: MetaDataInput): Metadata {
     id: _id ?? undefined,
   });
 
+
   return {
     title: `${meta.title} | Lyngstek 102`,
     description: meta.description,
