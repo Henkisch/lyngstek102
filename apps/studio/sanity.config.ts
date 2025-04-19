@@ -21,7 +21,7 @@ const dataset = process.env.SANITY_STUDIO_DATASET;
 const title = process.env.SANITY_STUDIO_TITLE;
 const presentationOriginUrl =
   process.env.NODE_ENV === "production"
-    ? "https://launch.larssonhenrik.com"
+    ? "https://lyngstek-102.vercel.app"
     : "http://localhost:3000";
 import { getLanguage } from "./helpers/localization"; // Import the helper
 

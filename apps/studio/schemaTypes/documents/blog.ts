@@ -106,6 +106,30 @@ export const blog = defineType({
       type: "richText",
       group: GROUP.MAIN_CONTENT,
     }),
+    defineField({
+      name: "gallery",
+      type: "array",
+      title: "Gallery",
+      group: GROUP.MAIN_CONTENT,
+      of: [
+        defineField({
+          name: "image",
+          title: getLocalizedField("common", "image"),
+          type: "image",
+          options: {
+            hotspot: true,
+          },
+          fields: [
+            defineField({
+              name: "alt",
+              title: getLocalizedField("image", "alt.title"),
+              type: "string",
+              description: getLocalizedField("image", "alt.description"),
+            }),
+          ],
+        }),
+      ]
+    }),
     ...seoFields,
     ...ogFields,
   ],

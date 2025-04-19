@@ -32,7 +32,7 @@ import type { DocumentWithLocale } from "../utils/types";
 
 const presentationOriginUrl =
   process.env.NODE_ENV === "production"
-    ? "https://launch.larssonhenrik.com"
+    ? "https://lyngstek-102.vercel.app"
     : "http://localhost:3000";
 
 const UnlockButton = styled(Button)`

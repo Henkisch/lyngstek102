@@ -1,3 +1,5 @@
+import { Badge } from "@workspace/ui/components/badge";
+import { Gallery } from "components/gallery";
 import { Breadcrumbs } from "components/navigation/breadcrumbs";
 import { TableOfContent } from "components/navigation/table-of-content";
 import { RichText } from "components/richtext";
@@ -52,7 +54,15 @@ export default async function BlogSlugPage({
   const { slug } = await params;
   const { data } = await fetchBlogSlugPageData(slug);
   if (!data) return notFound();
-  const { title, description, image, richText, breadcrumb } = data ?? {};
+  const {
+    title,
+    description,
+    image,
+    richText,
+    breadcrumb,
+    publishedAt,
+    gallery,
+  } = data ?? {};
 
   return (
     <div>
@@ -60,6 +70,11 @@ export default async function BlogSlugPage({
       <div className="mx-auto max-w-screen-md px-4 md:px-6 py-12 lg:py-24">
         <div className="flex flex-col gap-8 w-full">
           <main className="w-full">
+            <div className="flex items-center gap-x-4 mb-4">
+              <Badge variant="secondary">
+                <time dateTime={publishedAt ?? ""}>{publishedAt}</time>
+              </Badge>
+            </div>
             <header className="">
               <h1 className="text-4xl font-bold">{title}</h1>
               <p className="mt-4 text-lg md:mt-6">{description}</p>
@@ -75,6 +90,11 @@ export default async function BlogSlugPage({
                   height={900}
                   className="rounded h-auto w-full"
                 />
+              </div>
+            )}
+            {gallery && gallery.length > 0 && (
+              <div className="mt-2">
+                <Gallery title="Galleri" images={gallery} index={0} />
               </div>
             )}
             <div className="my-4 md:my-6">

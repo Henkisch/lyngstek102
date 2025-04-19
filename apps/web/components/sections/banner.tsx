@@ -62,7 +62,7 @@ export function BannerBlock({
           priority
           quality={100}
           sizes="100vw"
-          className="object-cover aspect-video md:aspect-[3/1]"
+          className="object-cover aspect-video md:aspect-[3/1.5]"
           alt={image.alt || "Banner image"}
         />
       )}

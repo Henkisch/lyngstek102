@@ -2,11 +2,12 @@ import { defineQuery } from "next-sanity";
 
 // Base fragments for reusable query parts
 const imageFragment = /* groq */ `
-  image{
+  image {
     ...,
     "alt": coalesce(alt, asset->altText, asset->originalFilename, "Image-Broken"),
     "blurData": asset->metadata.lqip,
     "dominantColor": asset->metadata.palette.dominant.background,
+    "src": asset->url
   }
 `;
 
@@ -258,7 +259,11 @@ export const queryBlogSlugPageData = defineQuery(/* groq */ `
     ${imageFragment},
     ${richTextFragment},
     ${pageBuilderFragment},
-    ${breadCrumbFragment}
+    ${breadCrumbFragment},
+    gallery[] {
+      ...,
+      "src": asset->url
+    },
   }
 `);
 
