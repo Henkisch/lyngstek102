@@ -9,9 +9,6 @@ export default defineCliConfig({
     projectId: projectId,
     dataset: dataset,
   },
-  studioHost:
-    host && host !== "main"
-      ? `${host}-next-sanity-template`
-      : "next-sanity-template",
+  studioHost: host && host !== "main" ? `${host}-lyngstek-102` : "lyngstek-102",
   autoUpdates: false,
 });
