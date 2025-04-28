@@ -44,9 +44,9 @@ export default async function BlogIndexPage() {
         <div className="flex w-full flex-col gap-12 lg:gap-24">
           <div className="mt-12 lg:mt-24">
             <BlogHeader
-              title={title}
+              title={"Tja tja bloggen!"}
               description={description}
-              badge="Vad har hänt?"
+              badge="Wazzup in Lyngstek?"
             />
           </div>
 

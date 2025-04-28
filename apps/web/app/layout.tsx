@@ -37,7 +37,7 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${fontGeist.variable} ${fontMono.variable} font-geist antialiased`}
+        className={`${fontGeist.variable} ${fontMono.variable} font-geist antialiased bg-[#E3DFDC]`}
       >
         <Providers>
           <Suspense fallback={<NavbarSkeleton />}>

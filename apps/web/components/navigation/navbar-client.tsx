@@ -239,18 +239,16 @@ export function DesktopNavbar({
 
   return (
     <div className="grid grid-cols-[1fr_auto] items-center gap-8">
-      <NavigationMenu className="">
-        {columns?.map((column) =>
-          column.type === "column" ? (
-            <NavbarColumn key={`nav-${column._key}`} column={column} />
-          ) : (
-            <NavbarColumnLink key={`nav-${column._key}`} column={column} />
-          ),
-        )}
-      </NavigationMenu>
-
       <div className="justify-self-end flex items-center gap-4">
-        <ModeToggle />
+        <NavigationMenu className="">
+          {columns?.map((column) =>
+            column.type === "column" ? (
+              <NavbarColumn key={`nav-${column._key}`} column={column} />
+            ) : (
+              <NavbarColumnLink key={`nav-${column._key}`} column={column} />
+            ),
+          )}
+        </NavigationMenu>
         <SanityButtons
           buttons={buttons ?? []}
           className="flex items-center gap-4"

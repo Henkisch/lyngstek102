@@ -111,7 +111,7 @@ export function FooterSkeleton() {
               ))}
             </div>
           </div>
-          <div className="mt-20 flex flex-col justify-between gap-4 border-t pt-8 lg:flex-row lg:items-center lg:text-left">
+          <div className="mt-20 flex flex-col justify-between gap-4 border-t border-black pt-8 lg:flex-row lg:items-center lg:text-left">
             <div className="h-4 w-48 bg-muted rounded animate-pulse" />
             <div className="flex justify-center gap-4 lg:justify-start">
               <div className="h-4 w-32 bg-muted rounded animate-pulse" />
@@ -129,7 +129,7 @@ function Footer({ data }: FooterProps) {
   const year = new Date().getFullYear();
 
   return (
-    <section className="border-t pt-12 lg:pt-24">
+    <section className="border-t border-black pt-12 lg:pt-24">
       <div className="">
         <footer className="">
           <div className="flex container mx-auto flex-col items-start justify-between gap-12 px-4 md:px-6 lg:gap-16">
@@ -178,7 +178,7 @@ function Footer({ data }: FooterProps) {
               </div>
             )}
           </div>
-          <div className="mt-12 border-t lg:mt-24">
+          <div className="mt-12 border-t border-black lg:mt-24">
             <div className="container mx-auto px-4 md:px-6">
               <div className="flex py-2 flex-col justify-between items-center gap-4 text-xs font-normal text-muted-foreground lg:flex-row lg:items-center lg:text-left mx-auto">
                 <p>
