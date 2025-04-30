@@ -84,11 +84,11 @@ export default async function BlogSlugPage({
                 <SanityImage
                   asset={image}
                   alt={title}
-                  width={1600}
+                  width={400}
                   loading="eager"
                   priority
-                  height={900}
-                  className="aspect-video rounded h-auto w-full"
+                  height={300}
+                  className="aspect-[4/3] rounded h-auto w-full"
                 />
               </div>
             )}
