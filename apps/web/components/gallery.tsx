@@ -58,7 +58,6 @@ export const Gallery = ({
             </div>
           ))}
         </div>
-
         <Lightbox
           index={slideIndex}
           slides={images.map((image) => {
