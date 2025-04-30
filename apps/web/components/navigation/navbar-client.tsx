@@ -115,7 +115,6 @@ function MobileNavbar({ navbarData }: { navbarData: QueryNavbarDataResult }) {
   }, [path]);
   return (
     <div className="flex justify-self-end items-center gap-2">
-      <ModeToggle />
       <Sheet open={isOpen} onOpenChange={setIsOpen}>
         <div className="flex justify-end">
           <SheetTrigger asChild>
@@ -238,7 +237,7 @@ export function DesktopNavbar({
   const { columns, buttons } = navbarData ?? {};
 
   return (
-    <div className="grid grid-cols-[1fr_auto] items-center gap-8">
+    <div className="grid w-full items-center gap-8">
       <div className="justify-self-end flex items-center gap-4">
         <NavigationMenu className="">
           {columns?.map((column) =>

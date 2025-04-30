@@ -88,7 +88,7 @@ export default async function BlogSlugPage({
                   loading="eager"
                   priority
                   height={900}
-                  className="rounded h-auto w-full"
+                  className="aspect-video rounded h-auto w-full"
                 />
               </div>
             )}
