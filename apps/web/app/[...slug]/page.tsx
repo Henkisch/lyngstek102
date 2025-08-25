@@ -2,6 +2,7 @@ import { Breadcrumbs } from "components/navigation/breadcrumbs";
 import { PageBuilder } from "components/sections/pagebuilder";
 import { client } from "lib/sanity/sanity.client";
 import { sanityFetch } from "lib/sanity/sanity.live";
+import type { Metadata } from "next";
 import {
   querySlugPageData,
   querySlugPagePaths,
@@ -30,9 +31,9 @@ async function fetchSlugPagePaths() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string[] }>;
-}) {
-  const { slug } = await params;
+  params: { slug: string[] };
+}): Promise<Metadata> {
+  const { slug } = params;
   const slugString = slug.join("/");
   const { data: pageData } = await fetchSlugPageData(slugString);
   if (!pageData) {
@@ -48,9 +49,9 @@ export async function generateStaticParams() {
 export default async function SlugPage({
   params,
 }: {
-  params: Promise<{ slug: string[] }>;
-}) {
-  const { slug } = await params;
+  params: { slug: string[] };
+}): Promise<JSX.Element> {
+  const { slug } = params;
   const slugString = slug.join("/");
   const { data: pageData } = await fetchSlugPageData(slugString);
 
