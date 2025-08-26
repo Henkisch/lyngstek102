@@ -70,7 +70,7 @@ export function PricingSection({
                 {plan.features &&
                   plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start">
-                      <div className="flex-shrink-0 h-5 w-5 text-primary mr-2">
+                      <div className="shrink-0 h-5 w-5 text-primary mr-2">
                         <Check className="h-4 w-4 translate-y-1" />
                       </div>
                       <span className="text-foreground">{feature}</span>

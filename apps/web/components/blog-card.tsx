@@ -24,7 +24,7 @@ function BlogImage({ image, title }: BlogImageProps) {
       height={400}
       alt={title ?? "Blog post image"}
       quality={100}
-      className="aspect-[4/3] pointer-events-none z-0 w-full rounded bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+      className="aspect-4/3 pointer-events-none z-0 w-full rounded bg-gray-100 object-cover sm:aspect-2/1 lg:aspect-3/2"
     />
   );
 }
@@ -187,7 +187,7 @@ export function BlogHeader({
 }) {
   return (
     <div className="">
-      <div className="max-w-screen-md">
+      <div className="max-w-(--breakpoint-md)">
         {badge && (
           <Badge variant="secondary" className="mb-4">
             {badge}

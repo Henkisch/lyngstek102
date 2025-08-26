@@ -67,7 +67,7 @@ export default async function BlogSlugPage({
   return (
     <div>
       <Breadcrumbs breadcrumb={breadcrumb} />
-      <div className="mx-auto max-w-screen-md px-4 md:px-6 py-12 lg:py-24">
+      <div className="mx-auto max-w-(--breakpoint-md) px-4 md:px-6 py-12 lg:py-24">
         <div className="flex flex-col gap-8 w-full">
           <main className="w-full">
             <div className="flex items-center gap-x-4 mb-4">
@@ -88,7 +88,7 @@ export default async function BlogSlugPage({
                   loading="eager"
                   priority
                   height={300}
-                  className="aspect-[4/3] rounded h-auto w-full"
+                  className="aspect-4/3 rounded h-auto w-full"
                 />
               </div>
             )}

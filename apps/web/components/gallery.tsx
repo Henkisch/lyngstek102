@@ -39,7 +39,7 @@ export const Gallery = ({
           {images.map((image, index) => (
             <div
               key={`${image._id}-${index}`}
-              className="aspect-[4/3] relative rounded-lg overflow-hidden cursor-pointer"
+              className="aspect-4/3 relative rounded-lg overflow-hidden cursor-pointer"
             >
               <div className="w-6 h-6 bg-black rounded-full absolute top-2 right-2 pointer-events-none z-10 flex items-center justify-center">
                 <ExpandIcon className="w-3 h-3 text-white z-10" />

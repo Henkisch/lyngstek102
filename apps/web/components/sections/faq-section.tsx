@@ -84,7 +84,7 @@ export function FaqSection({
                 target={link.openInNewTab ? "_blank" : "_self"}
                 className="flex items-center gap-2"
               >
-                <p className="text-[15px] font-[500] leading-6">
+                <p className="text-[15px] font-medium leading-6">
                   {link?.description}
                 </p>
                 <span className="rounded-full border p-1">

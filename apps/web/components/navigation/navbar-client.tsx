@@ -51,7 +51,7 @@ function MenuItemLink({
   return (
     <Link
       className={cn(
-        "flex select-none gap-4 rounded p-3 leading-none outline-none transition-colors hover:bg-accent hover:text-accent-foreground items-center focus:bg-accent focus:text-accent-foreground",
+        "flex select-none gap-4 rounded p-3 leading-none outline-hidden transition-colors hover:bg-accent hover:text-accent-foreground items-center focus:bg-accent focus:text-accent-foreground",
       )}
       aria-label={`Link to ${item.title ?? item.href}`}
       onClick={() => setIsOpen?.(false)}
@@ -119,7 +119,7 @@ function MobileNavbar({ navbarData }: { navbarData: QueryNavbarDataResult }) {
         <div className="flex justify-end">
           <SheetTrigger asChild>
             <Button className="" variant="outline" size="icon">
-              <Menu className="!size-5" />
+              <Menu className="size-5!" />
               <span className="sr-only">Open menu</span>
             </Button>
           </SheetTrigger>

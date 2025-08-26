@@ -56,7 +56,7 @@ const components: Partial<PortableTextReactComponents> = {
   },
   marks: {
     code: ({ children }) => (
-      <code className="rounded-md border-[1px] border-white border-opacity-10  bg-opacity-5 p-1 text-sm  lg:whitespace-nowrap">
+      <code className="rounded-md border border-white border-opacity-10  bg-opacity-5 p-1 text-sm  lg:whitespace-nowrap">
         {children}
       </code>
     ),

@@ -54,7 +54,7 @@ export function ImageWithText({
 
           {image && (
             <div
-              className={cn("aspect-[3/2] w-full lg:col-span-6", {
+              className={cn("aspect-3/2 w-full lg:col-span-6", {
                 "lg:order-first": layout === "imageFirst",
                 "lg:order-last": layout === "textFirst",
               })}
