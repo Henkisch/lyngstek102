@@ -31,9 +31,9 @@ async function fetchSlugPagePaths() {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string[] };
-}): Promise<Metadata> {
-  const { slug } = params;
+  params: Promise<{ slug: string[] }>;
+}) {
+  const { slug } = await params;
   const slugString = slug.join("/");
   const { data: pageData } = await fetchSlugPageData(slugString);
   if (!pageData) {
@@ -49,9 +49,9 @@ export async function generateStaticParams() {
 export default async function SlugPage({
   params,
 }: {
-  params: { slug: string[] };
-}): Promise<JSX.Element> {
-  const { slug } = params;
+  params: Promise<{ slug: string[] }>;
+}) {
+  const { slug } = await params;
   const slugString = slug.join("/");
   const { data: pageData } = await fetchSlugPageData(slugString);
 

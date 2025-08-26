@@ -37,7 +37,7 @@ import { ModeToggle } from "./mode-toggle";
 interface MenuItem {
   title: string;
   description: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
   href?: string;
 }
 
